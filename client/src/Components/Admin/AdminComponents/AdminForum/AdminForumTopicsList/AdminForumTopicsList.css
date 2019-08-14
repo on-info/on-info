@@ -1,0 +1,24 @@
+.forum-group-list .admin-forum-add-record {
+    margin: 20px;
+    font-weight: 500;
+}
+.forum-group-list .admin-forum-add-record .admin-forum-create-record {
+    display: flex;
+    justify-content: flex-start;
+}
+.forum-group-list .admin-forum-add-record .admin-forum-create-record .container-for-input label {
+    text-align: left;
+    padding-left: 0;
+    font-weight: 400;
+    margin-right: 20px;
+    flex-basis: auto;
+}
+.forum-group-list .admin-forum-add-record .admin-forum-create-record .container-for-input input {
+    margin-left: 0;
+    padding: 8px 20px;
+    outline: none;
+}
+.forum-group-list .admin-forum-add-record .admin-forum-create-record .button-admin {
+    margin-left: 80px;
+    align-self: center;
+}

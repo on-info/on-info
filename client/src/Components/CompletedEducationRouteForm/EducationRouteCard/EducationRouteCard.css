@@ -1,0 +1,110 @@
+.user-cards {
+  padding: 0 1em;
+}
+
+.user-cards-wrapper {
+  width: 21em;
+  background-color: #fff;
+  box-shadow: 0 0.5em 1em rgb(238, 235, 235);
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .user-cards-wrapper {
+    width: 90%;
+  }
+}
+
+.card--button-wrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 0.5em;
+}
+
+.users-card--mask {
+  width: calc(100% - 1.2em);
+  padding: 0.6em;
+  font: inherit;
+  background-color: inherit;
+  border-bottom: 1px solid #ddd;
+}
+
+.users-card--field {
+  padding: 0.7em;
+  text-align: left;
+}
+
+.users-card--input-field {
+  padding: 0.6em;
+  text-align: left;
+  border: none;
+  width: calc(100% - 1.2em);
+  border-bottom: 1px solid #ddd;
+  font: inherit;
+}
+
+.users-card--input-field:hover {
+  border: 1px solid #23c0fa;
+}
+
+.input-field--select {
+  width: 100%;
+}
+
+.user-cards--title {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  background-color: #b4e9fa;
+  padding: 1em 0.5em;
+}
+
+.users-card--field:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.users-card--field-list {
+  padding: 0.7em;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  line-height: 1.3em;
+  padding-left: 2em;
+}
+
+.users-card--radio-field {
+  flex-direction: column;
+  border-bottom: 1px solid #ddd;
+}
+
+.users-card--number-field {
+  display: initial;
+  width: 4em;
+  height: 0.1em;
+}
+
+.users-card--number-field:hover {
+  border: 1px solid #23c0fa;
+}
+
+.rc-select-dropdown {
+  padding-left: 0;
+}
+
+.users-card .rc-select-selection--multiple {
+  width: 100%;
+  margin-left: 0;
+  background-color: inherit;
+  border-bottom: 1px solid #ddd;
+}
+
+.users-card .rc-select-selection--multiple:hover {
+  border: 1px solid #23c0fa;
+}
+
+.users-card .rc-select {
+  width: 100%;
+}

@@ -1,0 +1,39 @@
+.projects-admin {
+    padding: 5px 20px;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+}
+.projects-admin .projects-admin-checkbox {
+    display: flex;
+}
+.projects-admin-checkbox input {
+    align-self: center;
+    margin-right: 10px;
+}
+.projects-admin .projects-admin-checkbox div:first-child {
+    flex-basis: 10%;
+}
+.projects-admin .projects-admin-checkbox div {
+    text-align: left;
+}
+.projects-admin .projects-admin-title{
+    cursor: pointer;
+    text-decoration: underline;
+    flex-basis: 90%;
+    text-align: left;
+}
+.projects-admin-title:hover{
+    text-decoration: none;
+}
+.projects-admin div {
+    text-align: center;
+    align-self: center;
+    flex-basis: 25%;
+}
+.projects-admin div:first-child {
+    text-align: left;
+}
+.react-confirm-alert-body > h1 {
+    margin-bottom: 15px;
+}

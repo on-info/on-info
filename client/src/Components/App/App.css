@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&subset=cyrillic');
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #646464;
+}
+
+.indent {
+  flex-grow: 1;
+  position: relative;
+  margin: 0 auto;
+  min-height: calc(100vh - 4em);
+}
+
+.indent::before {
+  height: 4em;
+  display: block;
+  content: ' ';
+}
+
+.primary-heading {
+  text-align: center;
+  margin: 1em 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  color: #1d6e87;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.secondary-heading {
+  color: #37b3d8;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin: 2em 0 1em 0;
+  text-align: center;
+}

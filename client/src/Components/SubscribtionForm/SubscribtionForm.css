@@ -1,0 +1,35 @@
+.subscribtion-form{
+	margin-top: 40px;
+	margin-right: 0;
+}
+.wrapper-input {
+	position: relative;
+	display: inline-block;
+}
+
+input[type="email"]::-webkit-input-placeholder { 
+	color: #9b9b9b;   
+	font-size: 14px;
+}
+input[type="email"]:-ms-input-placeholder {
+   color: #9b9b9b;
+   font-size: 14px;
+}
+input[type="email"]::-ms-input-placeholder {
+	color: #9b9b9b; 
+    font-size: 14px;
+}
+input[type="email"]::placeholder {
+	color: #9b9b9b; 
+	font-size: 14px;} 
+
+.wrapper-input:after{
+	position: absolute;
+	content: url(../../Assets/AssetsSvg/mail.svg);
+	height: 35px;
+	top: 13px;
+	right: 15px;
+	width: 20px;
+	background-repeat: no-repeat;
+
+}

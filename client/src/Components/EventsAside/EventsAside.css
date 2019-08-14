@@ -1,0 +1,21 @@
+.events-aside{
+    top: 100px;
+    position: fixed;
+}
+.link-news .active-link-news{
+    color:black;
+}
+.link-news .active-link-news:before{
+    vertical-align: 5px;
+    margin-left: -50px;
+    margin-right:10px;
+    content:'';
+    display: inline-block;
+    width: 40px;
+    background-color:#459369;
+    height: 3px;
+    border-radius: 5px;
+}
+.events-aside .events-page-aside{
+    margin: 120px 0 0 25px;
+}

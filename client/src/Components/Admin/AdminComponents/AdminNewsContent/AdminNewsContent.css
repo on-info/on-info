@@ -1,0 +1,42 @@
+.new-news {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d3d3d3;
+}
+.new-news div {
+    flex-basis: 22%;
+    text-align: center;
+}
+.new-news div:first-child {
+    flex-basis: 78%;
+    text-align: left;
+}
+.new-news .search-news {
+    border: none;
+}
+.new-news .button-new-news{
+    align-self: center;
+}
+.admin-position-content {
+    padding-left: 300px;
+    padding-top: 55px;
+}
+.delete-news img {
+    vertical-align: text-top;
+}
+.delete-news:disabled img {
+    opacity: 0.2;
+}
+.delete-news > div {
+    display: inline-block;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.delete-news:disabled > div {
+    cursor: default;
+}
+.delete-news span {
+    padding-left: 10px;
+    font-size: 14px;
+}
+

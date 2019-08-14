@@ -1,0 +1,27 @@
+.events-aside-list{
+    flex-grow: 1;
+    display: flex;
+}
+.calendar-event{
+    position: fixed;
+    top: 115px;
+    left: 20px;
+    width: 236px;
+    height: 55px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.3);
+    background-color: #f0f0f0;
+    border: solid 2px #dcdad7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.calendar-event span{
+    display: inline-block;
+    color: #3b3f48;
+    text-transform: uppercase;
+}
+.calendar-event img{
+    margin-right: 10px;
+}

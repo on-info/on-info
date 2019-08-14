@@ -1,0 +1,63 @@
+.forum-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.forum-list .delete-record:disabled img {
+    opacity: 0.2;
+}
+.forum-list .delete-record,
+.forum-list .add-record {
+    border-bottom: 2px solid #d3d3d3;
+}
+.forum-list .delete-record img,
+.forum-list .add-record img {
+    vertical-align: text-top;
+}
+.forum-list .delete-record > div,
+.forum-list .add-record > div {
+    display: inline-block;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.forum-list .delete-record:disabled > div {
+    cursor: default;
+}
+.forum-list .delete-record span,
+.forum-list .add-record span {
+    padding-left: 10px;
+    font-size: 14px;
+}
+.forum-list .forum-current-info {
+    display: flex;
+    flex-direction: column;
+}
+.forum-list .forum-current-info .forum-current {
+    border-bottom: 1px solid #77889980;
+    padding: 20px 20px 10px;
+    font-weight: 600;
+}
+.forum-list .overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(43, 40, 38, 0.6);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.forum-list .overlay.hidden {
+    display: none; 
+}
+.forum-list .modal-forum-element {
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: default;
+} 

@@ -1,0 +1,64 @@
+.admin-image {
+    display: flex;
+    margin-bottom: 20px;
+}
+.admin-image label {
+    flex-basis: 25%;
+}
+.admin-button {
+    outline: none;
+    background-color: #e8e6e2;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 15px;
+    padding: 5px 10px;
+    min-width: 200px;
+    height: 28px;  
+    position: relative;
+} 
+.admin-button:hover {
+    background-color: #4CAF50;
+    color: #e8e6e2;
+    border-color: #4CAF50;
+}
+.admin-image input {
+    cursor: pointer;
+    height: 28px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    opacity: 0;
+    width: 200px;
+}
+.choose-file {
+    text-align: center;
+}
+.preview-image {
+    margin: 20px 0;
+}
+.after-img {
+    width: 350px;
+    margin-bottom: 30px;
+}
+.position-cropper {
+    display: flex;
+}
+.position-cropper > div:first-child {
+    flex-basis: 25%;
+}
+.position-cropper > div:last-child {
+    flex-basis: 75%;
+}
+.admin-title-image {
+    display: flex;
+    align-items: flex-start;
+}
+.admin-title-image button {
+    margin-left: 20px;
+}
+
+
+
+
+

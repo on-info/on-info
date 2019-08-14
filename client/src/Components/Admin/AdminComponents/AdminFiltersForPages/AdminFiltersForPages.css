@@ -1,0 +1,16 @@
+.filter-title{
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+.input-button-filters-page{
+    display: flex;
+    margin: 15px 20px;
+}
+.input-button-filters-page input{
+    margin-left: 10px;
+}
+.filters-list{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

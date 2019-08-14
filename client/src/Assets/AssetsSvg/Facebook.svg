@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="20px" viewBox="0 0 10 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index-Copy" transform="translate(-1244.000000, -30.000000)" fill="#9B9B9B" fill-rule="nonzero">
+            <g id="Socials" transform="translate(1244.000000, 30.000000)">
+                <g id="Facebook">
+                    <path d="M6.25,6.875 L6.25,4.375 C6.25,3.685 6.81,3.125 7.5,3.125 L8.75,3.125 L8.75,0 L6.25,0 C4.17875,0 2.5,1.67875 2.5,3.75 L2.5,6.875 L0,6.875 L0,10 L2.5,10 L2.5,20 L6.25,20 L6.25,10 L8.75,10 L10,6.875 L6.25,6.875 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

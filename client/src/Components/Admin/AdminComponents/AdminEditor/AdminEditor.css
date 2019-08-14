@@ -1,0 +1,49 @@
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.toolbar {
+    border: 1px solid #ced0da;
+    margin-bottom: 0;
+    background-color: #f8f8f8;
+}
+.editor {
+    padding: 0 20px;
+    border: 1px solid #ced0da;
+    min-height: 250px;
+    margin-top: -1px;
+}
+.rdw-option-wrapper {
+    background-color: #f8f8f8;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; 
+} 
+.rdw-image-modal-upload-option-label {
+    flex-basis: 100%;
+}
+.rdw-image-modal-size {
+    display: none;
+}
+.rdw-image-alignment-options-popup {
+    display: none;
+}
+.rdw-link-modal {
+    height: 215px;
+}
+.rdw-link-modal-target-option {
+    margin-bottom: 10px;
+}
+.rdw-block-dropdown {
+    width: 130px;
+}
+.rdw-dropdown-optionwrapper {
+    width: 100%;
+}
+.wrapper .editor  {
+    overflow-y: auto;
+    height: 200px;
+    margin-right: 0.5px;
+}
+.editor .carousel.carousel-slider .control-arrow {
+    display: none;
+}

@@ -1,0 +1,26 @@
+.admin-forum-post-record {
+    padding: 5px 20px;
+    border-bottom: 1px solid #77889980;
+    display: flex;
+}
+.admin-forum-post-record .admin-forum-record-checkbox {
+    width: calc(100% - 400px);
+    display: flex;
+    align-self: center;
+}
+.admin-forum-post-record .disabled-post {
+    color: #cccccc;
+}
+.admin-forum-post-record .admin-forum-mark-post {
+    width: 400px;
+    text-align: right;
+    margin-right: 20px;
+}
+.admin-forum-post-record .admin-forum-select {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    outline: none;
+}

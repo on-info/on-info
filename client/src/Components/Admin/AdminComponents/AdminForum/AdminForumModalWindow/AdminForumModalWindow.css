@@ -1,0 +1,68 @@
+.modal-forum-window-new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+.modal-forum-window-new .admin-buttons {
+    margin: 0 auto;
+}
+.modal-forum-window-new .admin-forum-select {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+.modal-forum-window-new button,
+.modal-forum-window-new .admin-button  {
+    background-color: #ffffff;
+    font-size: 16px;
+    min-height: 28px;
+    cursor: pointer;
+}
+.modal-forum-window-new .admin-forum-add-record {
+    margin: 20px 0 10px;
+    font-weight: 500;
+    text-align: center;
+}
+.modal-forum-window-new .admin-forum-add-record .admin-forum-create-record {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px auto;
+}
+.modal-forum-window-new .admin-forum-add-record .admin-forum-create-record.topic {
+    flex-direction: column;
+}
+.modal-forum-window-new .admin-forum-add-record .admin-forum-create-record.topic .topic-title {
+    display: flex;
+}
+.modal-forum-window-new .admin-forum-add-record .admin-forum-create-record.topic .groups-select {
+    margin-top: 20px;
+    display: flex;
+}
+.modal-forum-window-new .admin-forum-add-record .admin-forum-create-record .admin-cancel {
+    align-self: center;
+    margin: 0 20px;
+}
+.modal-forum-window-new .admin-forum-add-record .admin-forum-create-record .container-for-input label,
+.modal-forum-window-new .admin-forum-add-record .admin-forum-create-record.topic .groups-options-label {
+    font-weight: 400;
+    flex-basis: auto;
+    padding-right: 30px;
+    padding-left: 0;
+    align-self: center;
+}
+.modal-forum-window-new .admin-forum-add-record .admin-forum-create-record.topic .groups-options-label {
+    padding-right: 10px;
+}
+.modal-forum-window-new .admin-forum-add-record .admin-forum-create-record .container-for-input input {
+    margin-left: 0;
+    padding: 8px 20px;
+    outline: none;
+}
+

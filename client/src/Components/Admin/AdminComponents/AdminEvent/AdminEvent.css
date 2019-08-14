@@ -1,0 +1,27 @@
+.event-admin {
+    padding: 5px 50px 5px 20px;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+}
+.event-admin div {
+    flex-basis: 50%;
+    text-align: center;
+    align-self: center;
+}
+.event-admin div:first-child {
+    flex-basis: 25%;
+    text-align: left;
+}
+.event-admin div:last-child {
+    flex-basis: 25%;
+}
+.event-name{
+    cursor: pointer;
+}
+.event-name{
+    text-decoration: underline;
+}
+.event-name:hover{
+    text-decoration: none;
+}

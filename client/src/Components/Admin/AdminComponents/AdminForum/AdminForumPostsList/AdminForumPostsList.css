@@ -1,0 +1,28 @@
+.forum-posts-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.forum-posts-list .forum-current-info {
+    display: flex;
+    flex-direction: column;
+}
+.forum-posts-list .forum-current-info .forum-current {
+    border-bottom: 1px solid #77889980;
+    padding: 20px 20px 10px;
+    font-weight: 600;
+}
+.forum-posts-list .admin-forum-select {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    outline: none;
+}
+.forum-posts-list .way {
+    padding: 10px 20px;
+    border-bottom: 1px solid #77889980;
+    border-top: 1px solid #77889980;
+    background-color: #d3d3d3;
+    cursor: pointer;
+}

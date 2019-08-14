@@ -1,0 +1,4 @@
+.library--image-default {
+  max-height: calc(100vh - 18em);
+  opacity: 0.6;
+}

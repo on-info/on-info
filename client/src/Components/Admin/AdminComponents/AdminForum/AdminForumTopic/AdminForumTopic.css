@@ -1,0 +1,58 @@
+.admin-forum-group-record {
+    padding: 5px 20px;
+    border-bottom: 1px solid #77889980;
+    display: flex;
+}
+.admin-forum-group-record .admin-forum-record-checkbox {
+    padding-left: 50px;
+    width: 500px;
+}
+.admin-forum-group-record .admin-forum-record-title {
+    border: none;
+    background-color: #e8e6e2;
+    margin: 0;
+    padding-left: 0;
+    cursor: pointer;
+}
+.admin-forum-group-record .admin-forum-record-title.active {
+    background-color: #ffffff;
+    border: 1px solid #77889980;
+    outline: none;
+    padding: 8px 20px;
+    margin: 3px 0;
+    cursor: text;
+}
+.admin-forum-group-record-title:hover {
+    text-decoration: none;
+    outline: none;
+}
+.admin-forum-group-record  div {
+    align-self: center;
+}
+.react-confirm-alert-body > h1 {
+    margin-bottom: 15px;
+}
+.admin-forum-group-record .admin-forum-buttons {
+    width: calc(100% - 550px);
+    text-align: right;
+    margin-right: 20px;
+}
+.admin-forum-group-record .admin-forum-change-buttons button,
+.admin-forum-group-record .admin-forum-change-group button  {
+    margin-left: 20px;
+}
+.admin-forum-group-record .admin-forum-move-buttons button {
+    margin-left: 10px;
+}
+.admin-forum-group-record .admin-forum-delete-button {
+    width: 50px;
+    text-align: right;
+}
+.admin-forum-group-record .admin-forum-select {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    outline: none;
+}

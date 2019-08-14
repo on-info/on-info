@@ -1,0 +1,70 @@
+.select-component .container-for-input{
+    display: inline-block;
+}
+
+.select-component .input-buttom-select{
+    display: inline-block;
+    margin-left: 15px;
+}
+.select-component  input:focus {
+    outline: none;
+}
+.rc-select-selection .rc-select-selection--single{
+    height: 40px;
+}
+.rc-select-selection__rendered{
+    line-height: 40px;
+}
+.rc-select-selection-selected-value{
+    margin-top: 7px;
+}
+.rc-select-search__field{
+    line-height: 40px;
+}
+.rc-select-selection--single{
+    height: 40px;
+}
+.select-component .container-for-input input  {
+    height: 40px;
+    border-radius: 7px;
+    border: 0;
+    padding: 5px 10px;
+} 
+.select-component .select-button {
+    outline: none;
+    background-color: #e8e6e2;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 15px;
+    padding: 5px 10px;
+    min-width: 100px;
+    margin-left: 15px;
+}
+.select-component .select-button:hover{
+    background-color: #4CAF50;
+    color: #e8e6e2;
+    border-color: #4CAF50;
+}
+.rc-select-selection__placeholder{
+    line-height: 40px;
+}
+.rc-select-arrow{
+    margin-top: 7px;
+}
+#my-select{
+    width: 500px;
+}
+.input-buttom-select
+ .container-for-input input{
+     width:200px;
+    margin-left: 15px;
+}
+#my-select 
+.rc-select-selection__rendered{
+    margin-top: 5px;
+}
+.select-component
+.source-select{
+font-weight: 600;
+margin-right: 15px;
+}

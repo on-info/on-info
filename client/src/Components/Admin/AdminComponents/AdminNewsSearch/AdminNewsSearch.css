@@ -1,0 +1,15 @@
+.search-news {
+    border: 1px solid #d3d3d3;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 3;
+}
+.search-news input {
+    border: none;
+    line-height: 3;
+    padding-left: 10px;
+}
+.search-news input:focus {
+    outline: none;
+}

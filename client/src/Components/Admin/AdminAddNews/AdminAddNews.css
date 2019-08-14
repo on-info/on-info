@@ -1,0 +1,164 @@
+.create-news {
+    padding: 65px 20px;
+    padding-left: 300px;
+}
+.create-news .news-status {
+    margin: 0 10px 20px;
+    display: flex;
+}
+.create-news .news-status > span {
+    flex-basis: 25%;
+    line-height: 1.5;
+}
+.create-news .admin-title-news {
+    margin-top: 35px;
+}
+.create-news .container-for-input {
+    display: flex;
+}
+.create-news .container-for-input label {
+    flex-basis: 25%;
+}
+.create-news .input-buttom-select {
+    display: flex;
+
+}
+.create-news .input-buttom-select .container-for-input label {
+    flex-basis: 33%;
+}
+.create-news .container-for-input label,
+.create-news .admin-image label,
+.create-news .text-news .select-component .input-buttom-select label {
+    padding-right: 60px;
+    padding-left: 10px;
+    font-weight: 600;
+    text-align: right;
+    align-self: center;
+}
+#title-news {
+    margin-left: 0;
+    height: auto;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+}
+.create-news .text-news,
+.create-news .text-news .select-component .select-filter {
+    display: flex;
+}
+.input-buttom-select .container-for-input input {
+    margin: 5px;
+    margin-left: 0;
+    width: 500px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid #d9d9d9;
+}
+.create-news .text-news .select-component .input-buttom-select {
+    margin-left: 50px;
+}
+.create-news .text-news .select-component .input-buttom-select .select-button {
+    font-size: 16px;
+    align-self: center;
+}
+.create-news .text-news > div:first-child,
+.create-news .text-news .select-component .select-filter .source-select {
+    flex-basis: 25%;
+    padding-right: 60px;
+    padding-left: 10px;
+    font-weight: 600;
+    text-align: right;
+    align-self: top;
+}
+.create-news .text-news > div:last-child {
+    flex-basis: 75%;
+}
+.create-news .text-news > div.select-component {
+    flex-basis: 100%;
+}
+.create-news .text-news .select-component .source-select {
+    flex-basis: 25%;
+    padding-right: 60px;
+    padding-left: 10px;
+    font-weight: 600;
+    text-align: right;
+    align-self: center;
+    margin-right: 0;
+}
+.create-news .text-news .select-component #my-select {
+    height: auto;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+}
+.create-news .text-news .wrapper {
+    margin-left: 0;
+    max-width: 85%;
+}
+.create-news .text-news .wrapper .editor {
+    background-color: #ffffff;
+}
+.create-news .text-news .wrapper .rdw-option-wrapper {
+    margin: 0 3px;
+}
+.create-news hr {
+    margin: 30px 40px;
+}
+.create-news hr:nth-of-type(2) {
+    margin-top: 0;
+}
+.create-news .admin-buttons {
+    margin: 60px auto 0px;
+    display: flex;
+    justify-content: space-evenly
+}
+.create-news .admin-buttons > button {
+    margin: 0 10px;
+    font-size: 16px;
+}
+.create-news .news-status > button {
+    margin: 0;
+    font-size: 16px;
+}
+.create-news .choose-file {
+    line-height: 1;
+}
+.create-news .admin-textarea {
+    display: flex;
+    flex-direction: column;
+}
+.create-news textarea {
+    margin-left: 0;
+    width: 85%;
+    max-height: 150px;
+    min-height: 50px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.create-news textarea:focus {
+    outline: none;
+}
+.create-news .admin-textarea-description {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.create-news .admin-textarea-description span,
+.create-news .admin-textarea-description div {
+    align-self: flex-end;
+    margin-top: 5px;
+}
+.create-news .admin-textarea-description input {
+    margin: 0 auto;
+    height: auto;
+    padding: 5px;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+}
+.create-news .admin-textarea-symbols {
+    font-weight: 600;
+}
+
+

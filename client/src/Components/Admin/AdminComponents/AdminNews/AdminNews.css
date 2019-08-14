@@ -1,0 +1,35 @@
+.news-admin {
+    padding: 5px 20px;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+}
+.news-admin .news-admin-checkbox {
+    display: flex;
+}
+.news-admin .news-admin-checkbox div:first-child {
+    flex-basis: 10%;
+}
+.news-admin .news-admin-checkbox div {
+    text-align: left;
+}
+.news-admin .news-admin-title {
+    cursor: pointer;
+    text-decoration: underline;
+    flex-basis: 90%;
+    text-align: left;
+}
+.news-admin-title:hover {
+    text-decoration: none;
+}
+.news-admin div {
+    text-align: center;
+    align-self: center;
+    flex-basis: 25%;
+}
+.news-admin div:first-child {
+    text-align: left;
+}
+.react-confirm-alert-body > h1 {
+    margin-bottom: 15px;
+}

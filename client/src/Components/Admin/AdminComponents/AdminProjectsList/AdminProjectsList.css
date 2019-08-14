@@ -1,0 +1,23 @@
+.without-info{
+    display:none
+}
+.projects-list-admin {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.projects-list-admin .projects-list-header {
+    line-height: 2.5;
+    padding: 5px 20px;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+}
+.projects-list-admin .projects-list-header div {
+    font-weight: 600;
+    text-align: center;
+    flex-basis: 25%;
+}
+.projects-list-admin .projects-list-header div:first-child {
+    text-align: left;
+}

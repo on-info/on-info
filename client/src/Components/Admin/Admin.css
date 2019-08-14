@@ -1,0 +1,24 @@
+.news-list--single-item {
+  width: 90%;
+  border-radius: 5px;
+  padding: 2em 0 0 0;
+  margin: 1em;
+  box-shadow: 0 0.5em 1em rgb(238, 235, 235);
+  background-color: #fff;
+}
+
+.sidebar--link.active {
+  background-color: #37b3d8;
+}
+
+@media (max-width: 1200px) {
+  .news-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .admin {
+    flex-direction: column;
+  }
+}

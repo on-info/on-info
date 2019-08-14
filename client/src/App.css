@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container-main{
+  height: 100%;
+}
+html, body{
+  height: 100%;
+}
+#root{
+  height: 100%;;
+}
+.list-container { 
+  margin-left: 300px;
+  padding-top: 55px;
+}
+html,
+body,
+button,
+input,
+div,
+span,
+a, 
+li,
+textarea,
+select {
+  font-family: 'Montserrat';
+}

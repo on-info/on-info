@@ -1,0 +1,68 @@
+.login-panel--link,
+.login-panel--btn {
+  z-index: 2;
+  position: relative;
+  text-decoration: none;
+  color: #1d6e87;
+  width: 6em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.7em 0;
+  border: 1px solid #1d6e87;
+  cursor: pointer;
+  margin-left: 0;
+  background-color: inherit;
+}
+
+@media (min-width: 540px) and (max-width: 1023px) {
+  .login-panel--btn {
+    margin-right: 0;
+  }
+}
+
+.login-panel {
+  display: flex;
+  align-items: center;
+  height: 4em;
+  padding: 0 0.5em;
+}
+
+.login-panel--heading {
+  color: #1d6e87;
+  font-size: 1.2em;
+  margin-right: 1em;
+}
+
+.login-panel--navigation {
+  color: rgb(51, 51, 51);
+  font-size: 1.2em;
+}
+
+.login-panel--navigation:hover {
+  color: #999;
+}
+
+.login-panel--navigation ~ .login-panel--btn {
+  margin-left: 1em;
+}
+
+@media (max-width: 1023px) {
+  .login-panel--btn,
+  .login-panel--link {
+    border-color: #b4e9fa;
+    color: #b4e9fa;
+  }
+
+  .login-panel {
+    background-color: #4a4848;
+    width: 100%;
+  }
+
+  .login-panel--navigation {
+    color: white;
+  }
+
+  .login-panel--heading {
+    color: #b4e9fa;
+  }
+}

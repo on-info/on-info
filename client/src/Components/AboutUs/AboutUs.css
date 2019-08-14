@@ -1,0 +1,12 @@
+.about-us{
+	background-color: #ebeae6;
+	flex-grow: 1;
+	flex-direction: row;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.with-picture{	
+	background: url(../../Assets/AssetsImg/main.png) no-repeat;
+	background-size: contain;
+}

@@ -1,0 +1,21 @@
+.forum-info {
+    display: flex;
+    margin: 30px 10px;
+    justify-content: space-around;
+}
+.forum-info .forum-info-block {
+    border: 1px solid rgba(119, 136, 153, 0.5);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    width: 260px;
+    /* cursor: pointer; */
+}
+.forum-info .forum-info-block > div {
+    align-self: center;
+}
+.forum-info .forum-info-block .forum-info-number {
+    font-size: 26px;
+    padding-top: 10px;
+}

@@ -1,0 +1,8 @@
+.admin-filter-container{
+    padding: 5px 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+.admin-filter-container .admin-filter-title{
+    margin-right: 30px;
+    display: inline-block;
+}

@@ -1,0 +1,144 @@
+.event-date-modal{
+    display: flex;
+    padding: 15px 25px 10px 25px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.day-event-modal{
+    margin-right: 5px;
+    font-family: Montserrat;
+    font-size: 55px;
+    color: #ffc757;
+}
+.time-title-event-modal{
+    margin-top: 8px;
+}
+.month-event-modal{
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #e8e6e2;
+    font-size: 14px;
+}
+.time-event-modal{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffc757;
+}
+.title-event-modal{
+    color: #3b3f48;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.place-tickets-event-modal{
+    margin-top: 20px;
+}
+.place-tickets-event-modal p{
+    margin-bottom: 10px;
+}
+.place-tickets-event-modal p span{
+    display: inline-block;
+    margin-right: 5px;
+}
+.place-tickets-event-modal span{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3b3f48;
+}
+.content-event-modal{
+    margin: 10px 0;
+}
+.speakers-event-modal{
+    margin: 10px 0;
+}
+.speakers-event-modal p{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.speakers-event-modal ul{
+    margin-left: 25px;
+}
+.speakers-event-modal ul li{
+    margin-top: 5px;
+    color:#9b9b9b;
+}
+.speakers-event-modal ul li span{
+    color:black;
+}
+.tickets-event-modal,
+.tickets-event-modal a{
+    color: #459369;
+    font-family: Montserrat;
+    font-size: 16px;
+    text-decoration-line: none;
+}
+.info-event-modal{
+    padding: 0 25px;
+}
+.contacts-event-modal{
+    font-size: 16px;
+}
+.contacts-event-modal p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.contacts-title-event-modal{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.phone-event-modal{
+    font-weight: 600;
+}
+.website-event-modal a{
+    font-weight: 500;
+    color: #459369;
+    text-decoration-line: none;
+}
+.buttons-event-modal{
+    margin-top: 20px;
+    border-top: 1px solid #f0f0f0;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+.button-event{
+    width: 192px;
+    margin-right: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20px;    
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+.button-event-ticket{
+    background-color: #459369;
+    border:2px solid #408761;
+}
+.button-event-ticket a{
+    color: #ffffff;
+    text-decoration-line: none;
+}
+.button-event-close{
+    background-color: #f0f0f0;
+    border:2px solid #dcdad7;
+    color: #3b3f48;
+}
+.button-close{
+    background-image:url(../../Assets//AssetsSvg/delete.svg);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+.place-event-modal .event-place{
+    cursor: pointer;
+    color: #459369;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}

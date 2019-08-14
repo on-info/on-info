@@ -1,0 +1,18 @@
+.search-user {
+    border: 1px solid #d3d3d3;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 3;
+}
+.search-user input {
+    border: none;
+    line-height: 3;
+    padding-left: 10px;
+}
+.search-user input:focus {
+    outline: none;
+}
+.admin-search-input {
+	background-color: #e8e6e2;
+}

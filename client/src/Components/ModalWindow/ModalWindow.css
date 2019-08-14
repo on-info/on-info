@@ -1,0 +1,60 @@
+.modal-window-new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+.modal-element .modal-window-new .admin-buttons {
+    margin: 0 auto;
+}
+.modal-element .modal-window-new .admin-image {
+    margin: 10px 70px 20px 0;
+    min-height: 28px;
+}
+.modal-element .modal-window-new .admin-image label {
+    padding-right: 20px;
+}
+.modal-element .modal-window-new button,
+.modal-element .modal-window-new .admin-button  {
+    background-color: #ffffff;
+    font-size: 16px;
+    min-height: 28px;
+}
+.modal-element .modal-window-new .after-img {
+    width: 500px;
+    margin-bottom: 20px;
+}
+.modal-element .modal-window-new .button-admin.add-image {
+    margin-bottom: 15px;
+}
+.modal-element .modal-window-new .image-array {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: min-content;
+}
+.modal-element .modal-window-new .admin-title-image {
+    margin-top: 10px;
+    margin-right: 20px;
+    min-height: min-content;
+    max-width: 870px;
+    flex-wrap: wrap;
+}
+.modal-element .modal-window-new .slider-image {
+    margin-bottom: 20px;
+    max-width: 350px;
+}
+.admin-title-image.sortable-helper {
+    z-index: 10000;
+}
+.admin-title-image.sortable-helper img {
+    max-width: 350px;
+}
+.admin-title-image.sortable-helper button {
+    background-color: #ffffff;
+}
+
+

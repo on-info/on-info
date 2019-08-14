@@ -1,0 +1,51 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 55px;
+    left: 0;
+}
+.container-nav {
+    display: flex;
+    flex-direction: column;
+}
+.menu-list-admin li {
+    padding: 25px 15px 20px 20px;
+    min-width: 280px;
+    list-style: none;
+    margin-right: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.menu-list-admin li a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-list-admin a:first-child li:before {
+    content: '';
+    background-image: url(../../Assets/AssetsSvg/mbri-users.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+}
+.menu-list-admin a:nth-child(2) li:before {
+    content: '';
+    background-image: url(../../Assets/AssetsSvg/mbri-calendar.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+}
+.menu-list-admin a:nth-child(3) li:before {
+    content: '';
+    background-image: url(../../Assets/AssetsSvg/news.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+}
